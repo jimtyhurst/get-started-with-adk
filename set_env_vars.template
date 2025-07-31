@@ -1,0 +1,9 @@
+# Use this file to set environment variables for the agents.
+# 1. Copy this file to set_env_vars.sh
+# 2. Set the variable values for your project.
+# 3. Source that file:
+#      $ source set_env_vars.sh
+export GOOGLE_GENAI_USE_VERTEXAI=TRUE
+export GOOGLE_CLOUD_PROJECT=YOUR_GOOGLE_CLOUD_PROJECT_ID
+export GOOGLE_CLOUD_LOCATION=us-west1
+export MODEL=gemini-2.5-flash
