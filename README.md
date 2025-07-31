@@ -1,4 +1,4 @@
-# get_started_with_adk
+# get-started-with-adk
 
 Sample ADK agents from Google's qwiklabs.com lab, "Get started with Agent Development Kit (ADK)" https://explore.qwiklabs.com/classrooms/17848/labs/103329 with minor modifications to make it easier to run locally, rather than in Google Cloud Editor in the QwikLabs environment.
 
