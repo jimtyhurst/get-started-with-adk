@@ -4,6 +4,13 @@ Sample ADK agents from Google's qwiklabs.com lab, "Get started with Agent Develo
 
 See https://github.com/google/adk-samples for other examples of agents developed with the ADK.
 
+**Contents**
+
+- [Development environment](#development-environment)
+- [Testing the agents](#testing-the-agents)
+- [License](#license)
+
+
 ## Development environment
 
 We assume [uv](https://github.com/astral-sh/uv) for setting up the virtual environment with package dependencies, but you can use any other package manager and virtual environment tools.
@@ -34,6 +41,8 @@ source set_env_vars.sh
 gcloud auth application-default login
 ```
 
+## Testing the agents
+
 ### Start the ADK web UI
 
 This app provides a web interface for you to test your agents.
@@ -60,3 +69,20 @@ adk run llm_auditor
 ```
 
 The response will be quite lengthy, but somewhere in the response, you will see: `**Verdict:** Inaccurate`, because water is 2 parts hydrogen to only 1 part oxygen.
+
+## License
+
+Copyright (c) 2025 Google LLC
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
